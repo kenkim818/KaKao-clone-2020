@@ -59,6 +59,11 @@ body {
   margin: 0px 30px;
 }
 
+.login-form-yellow {
+  background-color: var(--yellow);
+  border-radius: 10px;
+}
+
 #login-form input {
   padding: 15px 0px;
   border: none;
@@ -68,7 +73,7 @@ body {
   transition: 0.3s ease-in-out;
 }
 
-#login-form input:focus {
+#login-form input:hover {
   border-color: var(--yellow);
 }
 
