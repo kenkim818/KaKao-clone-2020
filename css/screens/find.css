@@ -1,0 +1,137 @@
+.recommended-friends {
+  margin: 15px 0px;
+  padding: 15px 0px;
+  border-top: 1.5px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.recommended-friends__title {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.recommended-friends span {
+  display: block;
+  margin: 90px 0;
+  text-align: center;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 25px;
+}
+
+.open-chat__header span {
+  opacity: 0.4;
+}
+
+.open-chat__post-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.open-chat__post__title-1 {
+  font-weight: 600;
+  margin-bottom: 3px;
+  font-size: 15px;
+}
+
+.open-chat__post__hashtag-1 {
+  text-transform: uppercase;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.open-chat__post__members-1 {
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.open-chat__post__members-1 img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open-chat__post__count {
+  opacity: 0.7;
+  font-size: 12px;
+}
+
+.open-chat__post__members-1 .divider-1 {
+  width: 1px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.open-chat__post__status {
+  font-size: 15px;
+  color: #ffb0e0;
+}
+
+.open-chat__photo-1 {
+  position: relative;
+}
+
+.open-chat__photo-1 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.open-chat__photo-2 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.open-chat__heart-count-1 {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 7px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  left: 30px;
+  font-size: 14px;
+}
+
+.open-chat__photo-2 {
+  position: relative;
+}
+
+.open-chat__heart-count-2 {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 7px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  left: 30px;
+  font-size: 14px;
+}
+
+.open-chat__heart-count-1 span {
+  margin-left: 1px;
+}
+
+.open-chat__post-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

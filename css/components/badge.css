@@ -1,0 +1,13 @@
+.chats__notification {
+  background-color: tomato;
+  height: 22px;
+  width: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 15px;
+}
